@@ -1,11 +1,10 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: Contacts Manager
 
 Breve descrição do que o seu projeto faz.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
-
+Antonio Glaybson Melo Teofilo, 539256, Ciência da Computação
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
 Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
@@ -15,7 +14,9 @@ Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: adm
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
 Liste as principais entidades do sistema.
-
+Usuário
+Pessoa
+País
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
 Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
@@ -32,11 +33,11 @@ Descreve ou liste brevemente as principais funcionalidades da aplicação que se
 
 **Frontend:**
 
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+v3.4, Vue-Router e Pinia.
 
 **Backend:**
 
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+Strapi
 
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
@@ -44,9 +45,9 @@ Lista as tecnologias, frameworks e bibliotecas utilizados.
 
 | Entidade| Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
-| Entidade 1 | X |  X  |  | X |
-| Entidade 2 | X |    |  X | X |
-| Entidade 3 | X |    |  |  |
+| Usuário |   |    |   |   |
+| Pessoa | X |X |X| X |
+| País | X |X| X | X |
 
 > Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
 
